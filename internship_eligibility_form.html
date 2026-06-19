@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Eligibility Form</title>
+</head>
+<body>
+    <header>
+        <h1>Internship Eligibilty Form</h1>
+    </header>
+    <hr>
+    <form>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" placeholder="enter your name:">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" placeholder="enter your email">
+        <br>
+        <label for="age">Age:</label>
+        <br>
+        <input type="number" id="age" min="18" max="30">
+        <br>
+        <label for="college">College Name:</label>
+        <br>
+        <input type="text" id="college">
+        <br>
+        <label id="branch">Branch:</label>
+        <br>
+        <input type="text" id="branch">
+        <br>
+        <label for="cgpa">CGPA:</label>
+        <br>
+        <input type="number" id="cgpa" step="0.1" min="0" max="10">
+        <br>
+        <label for="year">Year of Study:</label>
+        <br>
+        <select id="year">
+            <option>1st year</option>
+            <option>2st year</option>
+            <option>3st year</option>
+            <option>4th year</option>
+        </select> 
+        <br>
+        <label for="gender">Gender:
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+        </label>
+        <br>
+        <label for="skills">Skills:</label>
+        <br>
+        <input  type="checkbox" id="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="checkbox" id="java">
+        <label for="java">JAVA</label>
+        <br>
+        <input type="checkbox" id="excel">
+        <label for="excel">Excel</label>
+        <br>
+        <input type="checkbox" id="web_developemnt">
+        <label for="web_developemnt">Web Development</label> 
+        <br>
+        <label for="message">Why should we select you?</label>
+        <textarea id="message" rows="5" cols="40"></textarea>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="resest">
+    </form>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Internship Portal</p>
+    </footer>
+</body>
+</html>
